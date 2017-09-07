@@ -12,7 +12,6 @@
 
 - title: Content
   pages:
-    - title: Overview
     - title: Colors    
     - title: External Links
     - title: Fonts
@@ -24,7 +23,6 @@
 
 - title: Components
   pages:
-    - title: Overview
     # - title: Alerts
     # - title: Badge
     - title: Breadcrumb
@@ -55,7 +53,6 @@
 
 - title: Utilities
   pages:
-    - title: Overview
     # - title: Borders
     # - title: Clearfix
     # - title: Close icon
