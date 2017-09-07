@@ -1,17 +1,45 @@
-# Syntax highlighting
-highlighter:         pygments
+# Dependencies
+markdown:       kramdown
+highlighter:    rouge
+
+kramdown:
+  auto_ids:     true
 
 # Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
-relative_permalinks: true
+permalink:      pretty
 
-# Setup
-title:               Jekyll Example
-tagline:             Basic example of a Jekyll site with Sass enabled.
-url:                 http://mdo.github.io/jekyll-example
-baseurl:             /jekyll-example/
+# Server
+source:         "."
+destination:    ./_gh_pages
+port:           9001
+baseurl:        ""
+url:            "https://cdc.gov"
+encoding:       UTF-8
+exclude:
+  - .git
+  - .github
+  - assets/scss/
+  - build
+  - js
+  - node_modules
+  - nuget
+  - scss
+  - vendor
+  - bower.json
+  - composer.json
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - package.js
+  - package.json
+  - package-lock.json
+  - sache.json
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-toc
+
 
 # Assets
 #
@@ -19,3 +47,28 @@ baseurl:             /jekyll-example/
 sass:
   sass_dir:          _scss
   style:            :compressed
+
+
+# Social
+title:              CDC Design Gallery
+description:        "Design Gallery for the CDC Web Templates"
+
+# Custom variables
+current_version:    0.0.0
+docs_version:       0.0
+repo:               "https://github.com/AditTech/CDC-Web-Templates"
+slack:              "https://cdcproject.slack.com"
+download:
+  source:           "https://github.com/AditTech/CDC-Web-Templates/DOWNLOAD_SOURCE_FILE.zip"
+  dist:             "https://github.com/AditTech/CDC-Web-Templates/DOWNLOAD_DIST_FILE.zip"
+
+cdn:
+  # See https://www.srihash.org for info on how to generate the hashes
+  css:              "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+  css_hash:         "sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+  js:               "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+  js_hash:          "sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+  jquery:           "https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  jquery_hash:      "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  popper:           "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+  popper_hash:      "sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"

@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
-    <div class="container">
-      <header class="masthead">
-        <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
-        </h3>
-        <small>{{ site.tagline }}</small>
-      </header>
+<body>
+	{% include navbar.html %}
 
-      <hr>
+	<div class="container-fluid">
+		<div class="row">
+			{% include sidebar.html %}
 
-      {{ content }}
+			<main class="col-sm-9 ml-sm-auto col-md-10 pt-3" role="main">
+				<h1>[[TEMPLATE]]</h1>
+				<div class="links"></div>
+				<p class="lead">Lead goes here</p>
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+				<div class="bs-callout bs-callout-info">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+				</div>
+				<div class="content">
+					.content
+				</div>
+			</main>
+		</div>
+	</div>
 
-      <hr>
+	{% include footer.html %}
+	{% include scripts.html %}
+</body>
 
-      <footer>
-          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-      </footer>
-    </div>
-  </body>
 </html>
