@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://localhost:9001/docs/4.0/getting-started/accessibility.html</loc>
+</url>
+<url>
+<loc>http://localhost:9001/docs/4.0/getting-started/best-practices.html</loc>
+</url>
+<url>
+<loc>http://localhost:9001/docs/4.0/getting-started/bs4-cheat-sheet.html</loc>
+</url>
+<url>
+<loc>http://localhost:9001/docs/4.0/getting-started/design.html</loc>
+</url>
+<url>
+<loc>http://localhost:9001/docs/4.0/getting-started/download.html</loc>
+</url>
+<url>
 <loc>http://localhost:9001/</loc>
 </url>
 <url>
 <loc>http://localhost:9001/docs/4.0/getting-started/introduction.html</loc>
+</url>
+<url>
+<loc>http://localhost:9001/docs/4.0/getting-started/migration-guide.html</loc>
+</url>
+<url>
+<loc>http://localhost:9001/docs/4.0/getting-started/performance.html</loc>
+</url>
+<url>
+<loc>http://localhost:9001/docs/4.0/getting-started/standards.html</loc>
 </url>
 </urlset>
