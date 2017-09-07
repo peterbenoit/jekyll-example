@@ -40,7 +40,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-toc
 
-
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
@@ -55,7 +54,7 @@ description:        "Design Gallery for the CDC Web Templates"
 
 # Custom variables
 current_version:    0.0.0
-docs_version:       0.0
+docs_version:       4.0
 repo:               "https://github.com/AditTech/CDC-Web-Templates"
 slack:              "https://cdcproject.slack.com"
 download:

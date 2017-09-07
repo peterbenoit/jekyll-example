@@ -1,0 +1,97 @@
+- title: Getting started
+  pages:
+    - title: Introduction
+    - title: Download
+    - title: Migration Guide
+    - title: Standards
+    - title: Performance
+    - title: Accessibility
+    - title: Design
+    - title: Best Practices
+    - title: BS4 Cheat Sheet
+
+- title: Content
+  pages:
+    - title: Overview
+    - title: Colors    
+    - title: External Links
+    - title: Fonts
+    - title: Grid
+    - title: Icons
+    - title: Layouts
+    - title: Tables
+    - title: Typography
+
+- title: Components
+  pages:
+    - title: Overview
+    # - title: Alerts
+    # - title: Badge
+    - title: Breadcrumb
+    - title: Buttons
+    # - title: Button group
+    - title: Card
+    # - title: Carousel
+    - title: Collapse
+    # - title: Dropdowns
+    - title: Email Updates(GovD)
+    - title: Forms
+    # - title: Input group
+    - title: Images
+    - title: Jumbotron
+    - title: Lists
+    # - title: List group
+    - title: Modal
+    # - title: Navs
+    - title: Nav Buttons
+    # - title: Navbar
+    - title: On This Page
+    # - title: Pagination
+    - title: Panels
+    # - title: Popovers
+    # - title: Progress
+    # - title: Scrollspy
+    # - title: Tooltips
+
+- title: Utilities
+  pages:
+    - title: Overview
+    # - title: Borders
+    # - title: Clearfix
+    # - title: Close icon
+    # - title: Colors
+    # - title: Display
+    # - title: Embed
+    # - title: Flex
+    # - title: Float
+    # - title: Image replacement
+    # - title: Position
+    # - title: Screenreaders
+    # - title: Sizing
+    # - title: Spacing
+    # - title: Text
+    # - title: Vertical align
+    # - title: Visibility
+- title: Templates
+  pages:
+    - title: Overview
+    - title: Home Page
+    - title: Standard Page
+    - title: Admin Page
+    - title: Full Dashboard
+    - title: Simple Dashboard
+    
+# - title: Extend
+#   pages:
+    # - title: Approach
+    # - title: Icons
+
+# - title: Migration
+
+# - title: About
+#   pages:
+#     - title: History
+#     - title: Team
+#     - title: Brand
+#     - title: License
+#     - title: Translations
